@@ -48,6 +48,8 @@ this guide will help point you in the right direction from the start
 - Standard reports and built in a sandbox
 - You deploy a page layout - and it doesn't break anything
 
+**[⬆ back to top](#table-of-contents)**
+
 ### Never develop directly into production
 It's 2017 and I feel as though I still need to say this.
 
@@ -56,6 +58,8 @@ It's 2017 and I feel as though I still need to say this.
 
 **Good:**
 - Not ruining your environments
+
+**[⬆ back to top](#table-of-contents)**
 
 ### If you're forced to develop into Production, replicate to dev sandbox
 Ok, the off chance you need to change a page layout in prod, or some other well
@@ -76,6 +80,8 @@ development lifecycle which could be easily avoided by replicating the changes d
 
 You may not think it's worth it today, but this will save your bacon later
 
+**[⬆ back to top](#table-of-contents)**
+
 ### Ensure profiles/roles are set up correctly in the sandbox
 See the [Profiles and Permissions](#profiles-and-permissions) section, as well as the [Role Heirarchy](#role-heirarchy) sections for
 more information on how to set these up, however these should be developed in
@@ -88,3 +94,6 @@ the sandbox from day 0.
 **Good:**
 - Profiles and Roles are scoped early
 - Profiles are always added to all changesets
+
+**[⬆ back to top](#table-of-contents)**
+
